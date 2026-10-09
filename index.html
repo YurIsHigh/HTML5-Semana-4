@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício de DOM</title>
+    <style>
+        .destaque { font-weight: bold; color: blue; }
+        .feito { text-decoration: line-through; color: gray; }
+    </style>
+</head>
+<body>
+    <h1 id="titulo">Título Inicial</h1>
+    <input type="text" id="nome" placeholder="Digite seu nome">
+    <button id="botao">Clique aqui</button>
+    <form action="formulario">
+        <input type="text" id="tarefa" placeholder="Nova tarefa">
+        <button type="submit">Adicionar Tarefa</button>
+    </form>
+
+    <ul id="lista">
+        <li>Comprar pão</li>
+        <li>Estudar JavaScript</li>
+        <li>Lavar louça</li>
+    </ul>
+
+    <p class="texto">Primeiro parágrafo de exemplo</p>
+    <p class="texto">Segundo Parágrafo de exemplo</p>
+
+    <script src="app.js"></script>
+</body>
+</html>
